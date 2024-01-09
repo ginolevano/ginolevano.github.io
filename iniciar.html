@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar - DailyUEM</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
+    <script defer src="js/app.js" ></script>
+</head>
+<body>
+    <main
+    class="header"
+    >
+        <header
+        class="header__cont"
+        >
+            <div class="header__with">
+
+                <h1
+                class="header__h1"
+                >
+                    <a 
+                    class="header__img"
+                    href="index.html">
+                        <img
+                    src="assets/logo_Du.png" 
+                    loading="lazy"
+                    decoding="async"
+                    alt="DailyUEM">
+                    </a>
+                </h1>
+
+
+                <div class="header__menu">
+                    <ul class="header__ul"> 
+                        <li class="header__li header__li1 " ></li>
+                        <li class="header__li header__li2 " ></li>
+                        <li class="header__li header__li3 " ></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div class="menu " >
+            <div class="menu__cont">
+                <ul class="menu__ul " >
+                    <li class="menu__li " >
+                        <a class="menu__a  "  href="index.html"> Home </a>
+                    </li>
+                    <li class="menu__li " >
+                        <a class="menu__a active"  href="iniciar.html"> Iniciar </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- CODIGO INICIO -->
+
+    <div class="preguntas">
+        
+        <div class="preguntas__cont">
+
+            <h2 class="title__horario">Planificador Semanal</h2>
+        <form id="scheduleForm">
+            <label class="title__week" for="day">Selecciona el Día:</label>
+            <select class="preguntas__day" id="day" name="day">
+                <option value="monday">Lunes</option>
+                <option value="tuesday">Martes</option>
+                <option value="wednesday">Miércoles</option>
+                <option value="thursday">Jueves</option>
+                <option value="friday">Viernes</option>
+            </select>
+
+            <label class="preguntas__label" for="wakeupTime">¿A qué hora te despiertas?*</label>
+            <p class="preguntas__p">Para tener un dia mas productivo y mas eficaz, te recomendamos intentar despertar temprano por la mañana y planificar tus tareas de la mañana para poder descansar lo mas posible.</p>
+            <input type="time"   class="input__question" id="wakeupTime" name="wakeupTime" required>
+
+            <label class="preguntas__label" for="classHours">¿Cuántas horas vas a clase?*</label>
+            <p class="preguntas__p">Segun nuestras investigaciones, te recomendamos estudiar entre 4 y 6 horas en el dia. ¡Recuerda que ir a clase es parte del proceso de estudio!</p>
+            <input type="number"  class="input__question"  id="classHours" name="classHours" min="0" required>
+
+            <label class="preguntas__label" for="classTime">¿A qué hora inicias la clase?*</label>
+            <input type="time"  class="input__question" id="classTime" name="classTime" required>
+
+            <label class="preguntas__label" for="studyHours">¿Cuántas horas quieres estudiar?*</label>
+            <p class="preguntas__p">
+                Segun nuestras investigaciones, te recomendamos estudiar entre 4 y 6 horas en el dia. ¡Recuerda que ir a clase es parte del proceso de estudio!
+            </p>
+            <input type="number"  class="input__question" id="studyHours" name="studyHours" min="0" required>
+
+            <label class="preguntas__label" for="studyTime">¿A qué hora quieres estudiar?*</label>
+            <p class="preguntas__p">
+                Segun nuestras investigaciones, te recomendamos que tus horas de estudio sean despues de haber tomado un pequeño descanso de clase, y si es posible, que sean en un lugar donde puedas concentrarte. Pero si te sientes muy cansado despues de clase, puedes estudiar en casa en la noche.
+            </p>
+            <input type="time"  class="input__question" id="studyTime" name="studyTime" required>
+
+            <label class="preguntas__label" for="homeworkTime">¿A qué hora quieres hacer tarea?*</label>
+            <p class="preguntas__p">
+                Segun nuestras investigaciones, te recomendamos que a la hora de hacer tarea o deberes, si es posible, que sean en un lugar silencioso, como una biblioteca, y sean luego de haber tomado un pequeño descanso de clases. ¡Recuerda que puedes hacer deberes en la noche antes de ir a dormir!
+            </p>
+            <input type="time"  class="input__question" id="homeworkTime" name="homeworkTime" required>
+
+            <label class="preguntas__label" for="homeworkHours">¿Cuántas horas quieres hacer tarea?*</label>
+            <p class="preguntas__p">
+                
+            </p>
+            <input type="number"  class="input__question" id="homeworkHours" name="homeworkHours"  min="0" required>
+
+            <label class="preguntas__label" for="sleepHours">¿Cuántas horas quieres dormir?*</label>
+            <p class="preguntas__p">
+                Segun expertos, es recomendado dormir 7 o mas horas diarias para que tu cuerpo y mente puedan descansar lo necesario, para que el proximo dia puedas ser proactivo y eficaz en tu dia. ¡Descansar es parte del proceso para ser proactivo!
+            </p>
+
+            
+            <input type="number"  class="input__question" id="sleepHours" name="sleepHours" min="0" required>
+
+                <div class="btn__question">
+                    <button type="button" class="question " id="generate__schedule">GENERAR HORARIO</button>
+
+                </div>            
+        </form>
+
+        <div id="outputSchedule"></div>
+        <!-- Agrega este div en tu HTML donde quieras mostrar la recomendación -->
+        
+        <p id="bedtimeRecommendation_monday"></p>
+        <p id="bedtimeRecommendation_tuesday"></p>
+        <p id="bedtimeRecommendation_wednesday"></p>
+        <p id="bedtimeRecommendation_thursday"></p>
+        <p id="bedtimeRecommendation_friday"></p>
+
+        <div
+        class="btn__descarga"
+        >
+        <button type="button" class="question" id="download__schedule">DESCARGAR HORARIO</button>
+
+        </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    <!-- CODIGO FINAL -->
+
+    <footer
+    class="footer"
+    >
+
+        <div class="footer__div" >
+            <a class="footer__cont footer__img" href="">
+                <img src="assets/logo_Du.png" loading="lazy" decoding="async" alt="DailyUEM">
+            </a>
+            <p class=" footer__cont footer__p" >DailyUEM - 2024</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
