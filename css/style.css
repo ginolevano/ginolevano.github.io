@@ -158,7 +158,7 @@
 
 .header{
     width: 100%;
-    background-color: #0D0D0D;
+    background-color: #0d0d0d;
     display: flex;
     justify-content: center;
     border-bottom: 3px solid var(--color-secundario-white);
@@ -712,13 +712,26 @@ form {
     margin-bottom: 2em;
     border: 1px solid var(--color-secundario-white);
     border-radius: 0.375em;
+    display: flex;
+    flex-direction: column;
+
+
 }
 
 .day__p{
     font-family: "rubik-bold";
     color: var(--color-secundario-white);
     text-transform: uppercase;
+    font-size: clamp(1.4rem,20vw,1.4rem);
+    margin-bottom: 0.4em;
 }
+.detalle__horarios{
+    font-family: "rubik-regular";
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+
 
 .btn__question{
     width: 100%;

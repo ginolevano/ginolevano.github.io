@@ -39,31 +39,33 @@ $(()=>{
             thursday: 'JUEVES',
             friday: 'VIERNES',
         };
-        const dayEspanol = diasEnEspanol[day];
-        const wakeupTime = $('#wakeupTime').val();
-        const classHours = $('#classHours').val();
-        const classTime = $('#classTime').val();
-        const studyHours = $('#studyHours').val();
+        
+        const diaEspanol = diasEnEspanol[day];
+        const horaDespertar = $('#wakeupTime').val();
+        const clasesHours = $('#classHours').val();
+        const clasesTime = $('#classTime').val();
+        const horasEstudio = $('#studyHours').val();
         const studyTime = $('#studyTime').val();
-        const homeworkTime = $('#homeworkTime').val();
+        const tareasCasa = $('#homeworkTime').val();
         const sleepHours = $('#sleepHours').val();
         const homeworkHours = $('#homeworkHours').val();
 
         // VALIDA NUMERO NEGATIVO Y CEROS
-        if (parseFloat(classHours) <= 0 || parseFloat(studyHours) <= 0 || parseFloat(homeworkHours) <= 0 || parseFloat(sleepHours) <= 0) {
+        if (parseFloat(clasesHours) <= 0 || parseFloat(horasEstudio) <= 0 || parseFloat(homeworkHours) <= 0 || parseFloat(sleepHours) <= 0) {
             alert('Por favor, ingresa valores positivos para las horas. No se permiten números negativos ni cero.');
             return;
         }
+        
 
-        const classStartTime = parseTime(classTime);
-        const classDuration = parseFloat(classHours);
+        const classStartTime = parseTime(clasesTime);
+        const classDuration = parseFloat(clasesHours);
         const classEndTime = addHours(classStartTime, classDuration);
 
         const studyStartTime = parseTime(studyTime);
-        const studyDuration = parseFloat(studyHours);
+        const studyDuration = parseFloat(horasEstudio);
         const studyEndTime = addHours(studyStartTime, studyDuration);
 
-        const homeworkStartTime = parseTime(homeworkTime);
+        const homeworkStartTime = parseTime(tareasCasa);
         const homeworkDuration = parseFloat(homeworkHours);
         const homeworkEndTime = addHours(homeworkStartTime, homeworkDuration);
 
@@ -71,21 +73,22 @@ $(()=>{
             <div class="semana__cont" data-day="${day}">
                 <div class="day__week">
                     <p class="day__p">
-                        ${dayEspanol}
+                        ${diaEspanol}
                     </p>
                 </div>
-                <p class="detalle__horarios"><strong>Despertarse a las:</strong> ${wakeupTime}</p>
-                <p class="detalle__horarios"><strong>Clases de:</strong> ${formatTime(classStartTime)} - ${formatTime(classEndTime)}</p>
-                <p class="detalle__horarios"><strong>Estudiar de:</strong> ${formatTime(studyStartTime)} - ${formatTime(studyEndTime)}</p>
-                <p class="detalle__horarios"><strong>Tarea de:</strong> ${formatTime(homeworkStartTime)} - ${formatTime(homeworkEndTime)}</p>
-                <p class="detalle__horarios"><strong>Cantidad de horas de sueño:</strong> ${sleepHours}</p>
-                <p id="bedtimeRecommendation_${day}"></p>
+                <p class="detalle__horarios"><strong>Despertarse a las :</strong> ${horaDespertar}</p>
+                <p class="detalle__horarios"><strong>Clases de :</strong> ${formatTime(classStartTime)} - ${formatTime(classEndTime)}</p>
+                <p class="detalle__horarios"><strong>Estudiar de :</strong> ${formatTime(studyStartTime)} - ${formatTime(studyEndTime)}</p>
+                <p class="detalle__horarios"><strong>Tarea de :</strong> ${formatTime(homeworkStartTime)} - ${formatTime(homeworkEndTime)}</p>
+                <p class="detalle__horarios"><strong>Cantidad de horas de sueño :</strong> ${sleepHours} <strong> horas </strong> </p>
+                <p class="detalle__horarios" id="tiempoRecomendacion__${day}"></p>
                 </br>
                 <button class="delete__day" data-day="${day}">Eliminar Día</button>
             </div>
         `;
 
         const existingSchedule = $('#outputSchedule').find(`[data-day="${day}"]`);
+        
         if (existingSchedule.length > 0) {
             existingSchedule.replaceWith(scheduleOutput);
         } else {
@@ -97,7 +100,7 @@ $(()=>{
             bedtimeRecommendation: null
         };
         $('#download__schedule').show();
-        recommendBedtime(day, wakeupTime, sleepHours);
+        recommendBedtime(day, horaDespertar, sleepHours);
 
         $('.input__question').val('');
     };
@@ -155,7 +158,7 @@ const recommendBedtime = (day, wakeupTime, sleepHours) => {
 
     horarioSemanal[day].bedtimeRecommendation = bedtimeFormatted;
 
-    $('#bedtimeRecommendation_' + day).text('Dormir a las: ' + bedtimeFormatted);
+    $('#tiempoRecomendacion__' + day).text('DailyUEM recomienda dormir a las : ' + bedtimeFormatted);
 };
 
 $('#generate__schedule').on('click', () => generateOrUpdateSchedule());
@@ -179,7 +182,7 @@ $('#download__schedule').on('click', () => {
             const bedtimeRecommendation = scheduleData.bedtimeRecommendation;
             const scheduleHTML = scheduleData.scheduleOutput;
             const plainText = scheduleHTML.replace(/<\/?[^>]+(>|$)/g, "");
-            scheduleText += plainText + '\nRecomendación de dormir: ' + bedtimeRecommendation + '\n\n';
+            scheduleText += plainText + '\nDailyUEM recomienda dormir a las : ' + bedtimeRecommendation + '\n\n';
         }
     }
 

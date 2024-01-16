@@ -89,7 +89,7 @@
 
             <label class="preguntas__label" for="classHours">¿Cuántas horas vas a clase?*</label>
             <p class="preguntas__p">Segun nuestras investigaciones, te recomendamos estudiar entre 4 y 6 horas en el dia. ¡Recuerda que ir a clase es parte del proceso de estudio!</p>
-            <input type="number"  class="input__question"  id="classHours" name="classHours" min="0" required>
+            <input type="number"  class="input__question"  id="classHours" name="classHours" min="0" max="6" required>
 
             <label class="preguntas__label" for="classTime">¿A qué hora inicias la clase?*</label>
             <input type="time"  class="input__question" id="classTime" name="classTime" required>
@@ -98,7 +98,7 @@
             <p class="preguntas__p">
                 Segun nuestras investigaciones, te recomendamos estudiar entre 4 y 6 horas en el dia. ¡Recuerda que ir a clase es parte del proceso de estudio!
             </p>
-            <input type="number"  class="input__question" id="studyHours" name="studyHours" min="0" required>
+            <input type="number"  class="input__question" id="studyHours" name="studyHours" min="0" max="6" required>
 
             <label class="preguntas__label" for="studyTime">¿A qué hora quieres estudiar?*</label>
             <p class="preguntas__p">
@@ -116,7 +116,7 @@
             <p class="preguntas__p">
                 
             </p>
-            <input type="number"  class="input__question" id="homeworkHours" name="homeworkHours"  min="0" required>
+            <input type="number"  class="input__question" id="homeworkHours" name="homeworkHours"  min="0" max="6" required>
 
             <label class="preguntas__label" for="sleepHours">¿Cuántas horas quieres dormir?*</label>
             <p class="preguntas__p">
@@ -124,7 +124,7 @@
             </p>
 
             
-            <input type="number"  class="input__question" id="sleepHours" name="sleepHours" min="0" required>
+            <input type="number"  class="input__question" id="sleepHours" name="sleepHours" min="0" max="10" required>
 
                 <div class="btn__question">
                     <button type="button" class="question " id="generate__schedule">GENERAR HORARIO</button>
