@@ -877,6 +877,13 @@ form {
         
         
     }
+    @media screen and (max-width:480px) {
+        .detalle__horarios{
+            font-size: 1.1rem;
+        }
+        
+        
+    }
     @media screen and (max-width:410px) {
         .banneriniciar__p{
             font-family: "rubik-bold";
