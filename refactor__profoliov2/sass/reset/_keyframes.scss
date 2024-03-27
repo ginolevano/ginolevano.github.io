@@ -1,0 +1,70 @@
+
+@keyframes amarillo {
+    from{
+        transform: rotate(0deg)  ;}
+    to{
+        transform: rotate(360deg) ;}
+}
+
+@keyframes morado {
+    from{
+        transform: rotate(0deg) translateX(5em) ;}
+    to{
+        transform: rotate(-360deg) translateX(5em) ;}
+}
+
+@keyframes centro {
+    from{
+        transform: rotate(0deg)  ;}
+    to{
+        transform: rotate(360deg)  ;}
+}
+
+@keyframes turquesa {
+    from{
+        transform: rotate(0deg)  ;}
+    to{
+        transform: rotate(-360deg)  ;}
+}
+
+@keyframes blanco {
+    from{
+        transform: rotate(0deg) translateX(-10em);}
+    to{
+        transform: rotate(-360deg) translateX(-10em);}
+}
+@keyframes loading {
+    0% {
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    50% {
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    100% {
+    transform: rotate(1800deg);
+    }
+}
+
+@keyframes aparecer {
+    0%{
+        opacity: 0.01;
+    }
+    1%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+    }
+
+@keyframes aparecer__cookies {
+    from{
+        transform: translateY(100em);
+    }
+    to{
+        transform: translateY(0em);
+    }
+}

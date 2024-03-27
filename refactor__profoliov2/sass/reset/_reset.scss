@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'aileron';
+    src: url(../aileron/Aileron-Light.otf) format('opentype');
+    font-display: swap;
+}
+
+@font-face{
+    font-family:'rubik' ;
+    src: url(../Rubik/static/Rubik-Black.ttf) format('truetype');
+    font-display: swap;
+}
+
+@font-face{
+    font-family:'rubik-bold' ;
+    src: url(../Rubik/static/Rubik-Bold.ttf) format('truetype');
+    font-display: swap;
+}
+
+@font-face{
+    font-family:'rubik-semibold' ;
+    src: url(../Rubik/static/Rubik-Light.ttf) format('truetype');
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'aileron-bold';
+    src:url(../aileron/Aileron-Heavy.otf) format('opentype');
+    font-display: swap;
+}
+
+
+:root{
+    --century: century-gothic,sans-serif;
+    --highgate: highgate,sans-serif;
+    --rubik: 'Rubik', sans-serif;
+    --colorPRIMARIO-LIGHBLUE:#1F72A6;
+    --colorPRIMARIOG-BLACK: #000;
+    --colorSECUNDARIO-BLACK:#1b1c1e;
+    // --colorPRIMARIOG-PURPLE:#7300FF;
+    --colorPRIMARIOG-YELLOW:#FFCC70;
+    --colorSECUNDARIO-TURQUESA: #43AED9;
+    --colorSECUNDARIO-WHITE : #eae9e8;
+    --colorPRIMARIO-SKIN : #f78473;
+    --colorsecundario-ORANGE:#A68A7B;
+    --colorText :#9C9C9C;
+    --mendlSans: mendl-sans-dusk,sans-serif;
+    --Paddingtitles: 0em 0em 1.5em 0em;
+    --FontWeightTitles: 800;
+    --SizeTitles : clamp(3rem,20vw,5rem);
+    --PaddingImg: 6em 0em 6em 0em;
+    --wdim:20vmin;
+    --hdim:10vmin;
+    --lineheight:1.4;
+
+}
+
+:root{
+    --color-primario   : #f0f0f0;
+    --color-secundario : #0D0D0D;
+    --tipo-principal   : century-gothic,sans-serif;
+    --tipo-secundaria  : Verdana;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root{
+    --color-primario   : #f0f0f0;
+    --color-secundario : #000;  
+    }
+}
+
+@media (prefers-contrast: high){
+    :root{
+    --color-primario   : #000;
+    --color-secundario : white; 
+   
+}
+}
+* {
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+img , picture , video , iframe , figure{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;        
+    object-position: center center;
+}
+
+a {
+    display: block;
+}
+p a {
+    display: inline;
+}
+
+li {
+    list-style-type: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 , p ,span , a , strong , blockquote , i , b , u , em {
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    color:inherit;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+::selection {
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+}
+
+form , input, textarea, select , button , label{
+    font-family: inherit;
+    font-size: inherit;
+    hyphens: auto;
+    background-color: transparent;
+    display: block;
+    color:inherit;
+    appearance: none;
+}
+
+table , tr , td {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+svg{
+    width: 100%;
+    display: block;
+    fill: currentColor;
+}
+
+
+body {
+    width: 100%;
+    min-height  : 100vh;
+    font-size   : 100%;
+    font-family : var(--tipo-principal);
+    color       : var(--color-primario);
+    background-color: var(--color-secundario);
+    line-height: 1.4em;
+    hyphens: none;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} 
