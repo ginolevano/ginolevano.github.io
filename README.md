@@ -1,5 +1,5 @@
 # Description 🏄🏽‍♂️
-[http://ginolevano.com](https://ginolevano.github.io/)
+[www.ginolevano.com](https://ginolevano.github.io/)
 ## - Under construction -
 ### This is my personal website, created using
 
