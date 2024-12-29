@@ -6,7 +6,7 @@
 
 
 
-<img width="1878" alt="Portfolio" src="https://github.com/ginolevano/ginolevano.github.io/issues/1#issue-2762049080">
+<img width="1677" alt="portafolio" src="https://github.com/user-attachments/assets/685f3f38-52d2-469f-b21e-225e42ec2e6a" />
 
 # Installation
 
