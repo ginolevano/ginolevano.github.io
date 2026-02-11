@@ -1,0 +1,245 @@
+Dec  9 16:58:55 10.71.56.0 tmp117353325-8044 Connection from 10.71.56.0 port 45810 on 82.165.90.16 port 22 rdomain ""
+Dec  9 16:58:55 10.71.56.0 tmp117353325-8044 Accepted password for tmp117353325-8044 from 10.71.56.0 port 45810 ssh2
+Dec  9 16:58:55 10.71.56.0 tmp117353325-8044 Starting session: subsystem 'sftp' for tmp117353325-8044 from 10.71.56.0 port 45810 id 0
+Dec  9 16:58:55 10.71.56.0 tmp117353325-8044 session opened for local user tmp117353325-8044 from [10.71.56.0]
+Dec  9 17:00:49 10.71.56.0 tmp117353325-8044 Connection closed by 10.71.56.0 port 45810
+Dec  9 17:00:49 10.71.56.0 tmp117353325-8044 session closed for local user tmp117353325-8044 from [10.71.56.0]
+Dec  9 17:08:36 10.71.57.0 tmp117353325-6518 Connection from 10.71.57.0 port 64466 on 82.165.90.16 port 22 rdomain ""
+Dec  9 17:08:36 10.71.57.0 tmp117353325-6518 Accepted password for tmp117353325-6518 from 10.71.57.0 port 64466 ssh2
+Dec  9 17:08:36 10.71.57.0 tmp117353325-6518 Starting session: subsystem 'sftp' for tmp117353325-6518 from 10.71.57.0 port 64466 id 0
+Dec  9 17:08:36 10.71.57.0 tmp117353325-6518 session opened for local user tmp117353325-6518 from [10.71.57.0]
+Dec  9 17:13:36 10.71.57.0 tmp117353325-6518 session closed for local user tmp117353325-6518 from [10.71.57.0]
+Dec  9 17:13:36 10.71.57.0 tmp117353325-6518 Connection closed by 10.71.57.0 port 64466
+Dec  9 17:25:13 10.71.57.0 tmp117353325-928 Connection from 10.71.57.0 port 51890 on 82.165.90.16 port 22 rdomain ""
+Dec  9 17:25:13 10.71.57.0 tmp117353325-928 Accepted password for tmp117353325-928 from 10.71.57.0 port 51890 ssh2
+Dec  9 17:25:13 10.71.57.0 tmp117353325-928 Starting session: subsystem 'sftp' for tmp117353325-928 from 10.71.57.0 port 51890 id 0
+Dec  9 17:25:13 10.71.57.0 tmp117353325-928 session opened for local user tmp117353325-928 from [10.71.57.0]
+Dec  9 17:30:53 10.71.57.0 tmp117353325-928 Connection closed by 10.71.57.0 port 51890
+Dec  9 17:30:53 10.71.57.0 tmp117353325-928 session closed for local user tmp117353325-928 from [10.71.57.0]
+Dec  9 17:33:28 10.71.57.0 u117353325 Connection from 10.71.57.0 port 19770 on 82.165.90.16 port 22 rdomain ""
+Dec  9 17:33:29 10.71.57.0 u117353325 Accepted password for u117353325 from 10.71.57.0 port 19770 ssh2
+Dec  9 17:33:29 10.71.57.0 u117353325 Starting session: subsystem 'sftp' for u117353325 from 10.71.57.0 port 19770 id 0
+Dec  9 17:33:29 10.71.57.0 u117353325 session opened for local user u117353325 from [10.71.57.0]
+Dec  9 17:34:05 10.71.57.0 u117353325 Connection from 10.71.57.0 port 41274 on 82.165.90.16 port 22 rdomain ""
+Dec  9 17:34:05 10.71.57.0 u117353325 Accepted password for u117353325 from 10.71.57.0 port 41274 ssh2
+Dec  9 17:34:05 10.71.57.0 u117353325 Connection from 10.71.57.0 port 41262 on 82.165.90.16 port 22 rdomain ""
+Dec  9 17:34:05 10.71.57.0 u117353325 Accepted password for u117353325 from 10.71.57.0 port 41262 ssh2
+Dec  9 17:34:05 10.71.57.0 u117353325 Starting session: subsystem 'sftp' for u117353325 from 10.71.57.0 port 41274 id 0
+Dec  9 17:34:05 10.71.57.0 u117353325 Starting session: subsystem 'sftp' for u117353325 from 10.71.57.0 port 41262 id 0
+Dec  9 17:34:05 10.71.57.0 u117353325 session opened for local user u117353325 from [10.71.57.0]
+Dec  9 17:34:05 10.71.57.0 u117353325 session opened for local user u117353325 from [10.71.57.0]
+Dec  9 17:34:06 10.71.57.0 u117353325 open "/drmildred.html" flags READ mode 0666
+Dec  9 17:34:06 10.71.57.0 u117353325 open "/about.html" flags READ mode 0666
+Dec  9 17:34:06 10.71.57.0 u117353325 close "/about.html" bytes read 7856 written 0
+Dec  9 17:34:06 10.71.57.0 u117353325 [10.71.57.0|get|0|7856|0|0|0|2f61626f75742e68746d6c|]
+Dec  9 17:34:06 10.71.57.0 u117353325 close "/drmildred.html" bytes read 7971 written 0
+Dec  9 17:34:06 10.71.57.0 u117353325 [10.71.57.0|get|0|7971|0|0|0|2f64726d696c647265642e68746d6c|]
+Dec  9 17:34:06 10.71.57.0 u117353325 open "/index.html" flags READ mode 0666
+Dec  9 17:34:06 10.71.57.0 u117353325 open "/portfolio.html" flags READ mode 0666
+Dec  9 17:34:06 10.71.57.0 u117353325 close "/index.html" bytes read 12522 written 0
+Dec  9 17:34:06 10.71.57.0 u117353325 [10.71.57.0|get|0|12522|0|0|0|2f696e6465782e68746d6c|]
+Dec  9 17:34:06 10.71.57.0 u117353325 close "/portfolio.html" bytes read 8767 written 0
+Dec  9 17:34:06 10.71.57.0 u117353325 [10.71.57.0|get|0|8767|0|0|0|2f706f7274666f6c696f2e68746d6c|]
+Dec  9 17:34:06 10.71.57.0 u117353325 open "/tip.html" flags READ mode 0666
+Dec  9 17:34:07 10.71.57.0 u117353325 open "/Rubik/static/Rubik-Black.ttf" flags READ mode 0666
+Dec  9 17:34:07 10.71.57.0 u117353325 close "/tip.html" bytes read 8706 written 0
+Dec  9 17:34:07 10.71.57.0 u117353325 [10.71.57.0|get|1|8706|0|0|0|2f7469702e68746d6c|]
+Dec  9 17:34:07 10.71.57.0 u117353325 open "/Rubik/static/Rubik-Bold.ttf" flags READ mode 0666
+Dec  9 17:34:07 10.71.57.0 u117353325 close "/Rubik/static/Rubik-Black.ttf" bytes read 123660 written 0
+Dec  9 17:34:07 10.71.57.0 u117353325 [10.71.57.0|get|0|123660|0|0|0|2f527562696b2f7374617469632f527562696b2d426c61636b2e747466|]
+Dec  9 17:34:07 10.71.57.0 u117353325 open "/Rubik/static/Rubik-Light.ttf" flags READ mode 0666
+Dec  9 17:34:07 10.71.57.0 u117353325 close "/Rubik/static/Rubik-Bold.ttf" bytes read 124096 written 0
+Dec  9 17:34:07 10.71.57.0 u117353325 [10.71.57.0|get|0|124096|0|0|0|2f527562696b2f7374617469632f527562696b2d426f6c642e747466|]
+Dec  9 17:34:07 10.71.57.0 u117353325 close "/Rubik/static/Rubik-Light.ttf" bytes read 123476 written 0
+Dec  9 17:34:07 10.71.57.0 u117353325 [10.71.57.0|get|0|123476|0|0|0|2f527562696b2f7374617469632f527562696b2d4c696768742e747466|]
+Dec  9 17:34:08 10.71.57.0 u117353325 open "/aileron/Aileron-Light.otf" flags READ mode 0666
+Dec  9 17:34:08 10.71.57.0 u117353325 open "/aileron/Aileron-Heavy.otf" flags READ mode 0666
+Dec  9 17:34:08 10.71.57.0 u117353325 close "/aileron/Aileron-Light.otf" bytes read 28324 written 0
+Dec  9 17:34:08 10.71.57.0 u117353325 [10.71.57.0|get|0|28324|0|0|0|2f61696c65726f6e2f41696c65726f6e2d4c696768742e6f7466|]
+Dec  9 17:34:08 10.71.57.0 u117353325 close "/aileron/Aileron-Heavy.otf" bytes read 30060 written 0
+Dec  9 17:34:08 10.71.57.0 u117353325 [10.71.57.0|get|0|30060|0|0|0|2f61696c65726f6e2f41696c65726f6e2d48656176792e6f7466|]
+Dec  9 17:34:08 10.71.57.0 u117353325 open "/assets/bg.png" flags READ mode 0666
+Dec  9 17:34:08 10.71.57.0 u117353325 open "/assets/AE-POLYGON.svg" flags READ mode 0666
+Dec  9 17:34:08 10.71.57.0 u117353325 close "/assets/bg.png" bytes read 2114 written 0
+Dec  9 17:34:08 10.71.57.0 u117353325 [10.71.57.0|get|0|2114|0|0|0|2f6173736574732f62672e706e67|]
+Dec  9 17:34:08 10.71.57.0 u117353325 open "/assets/1.jpg" flags READ mode 0666
+Dec  9 17:34:08 10.71.57.0 u117353325 close "/assets/AE-POLYGON.svg" bytes read 6016 written 0
+Dec  9 17:34:08 10.71.57.0 u117353325 [10.71.57.0|get|0|6016|0|0|0|2f6173736574732f41452d504f4c59474f4e2e737667|]
+Dec  9 17:34:09 10.71.57.0 u117353325 open "/assets/logo__mobile.jpg" flags READ mode 0666
+Dec  9 17:34:09 10.71.57.0 u117353325 close "/assets/logo__mobile.jpg" bytes read 162294 written 0
+Dec  9 17:34:09 10.71.57.0 u117353325 close "/assets/1.jpg" bytes read 966739 written 0
+Dec  9 17:34:09 10.71.57.0 u117353325 [10.71.57.0|get|1|966739|0|0|0|2f6173736574732f312e6a7067|]
+Dec  9 17:34:09 10.71.57.0 u117353325 [10.71.57.0|get|0|162294|0|0|0|2f6173736574732f6c6f676f5f5f6d6f62696c652e6a7067|]
+Dec  9 17:34:09 10.71.57.0 u117353325 open "/assets/portfolio.webp" flags READ mode 0666
+Dec  9 17:34:09 10.71.57.0 u117353325 open "/assets/diamon__cursorv2.webp" flags READ mode 0666
+Dec  9 17:34:09 10.71.57.0 u117353325 close "/assets/diamon__cursorv2.webp" bytes read 16212 written 0
+Dec  9 17:34:09 10.71.57.0 u117353325 [10.71.57.0|get|0|16212|0|0|0|2f6173736574732f6469616d6f6e5f5f637572736f7276322e77656270|]
+Dec  9 17:34:09 10.71.57.0 u117353325 close "/assets/portfolio.webp" bytes read 23048 written 0
+Dec  9 17:34:09 10.71.57.0 u117353325 [10.71.57.0|get|0|23048|0|0|0|2f6173736574732f706f7274666f6c696f2e77656270|]
+Dec  9 17:34:09 10.71.57.0 u117353325 sent status No such file
+Dec  9 17:34:09 10.71.57.0 u117353325 open "/assets/TIP-MOCKUP.webp" flags READ mode 0666
+Dec  9 17:34:09 10.71.57.0 u117353325 open "/assets/drmildred__movil.jpg" flags READ mode 0666
+Dec  9 17:34:10 10.71.57.0 u117353325 close "/assets/TIP-MOCKUP.webp" bytes read 722080 written 0
+Dec  9 17:34:10 10.71.57.0 u117353325 [10.71.57.0|get|1|722080|0|0|0|2f6173736574732f5449502d4d4f434b55502e77656270|]
+Dec  9 17:34:10 10.71.57.0 u117353325 close "/assets/drmildred__movil.jpg" bytes read 326030 written 0
+Dec  9 17:34:10 10.71.57.0 u117353325 [10.71.57.0|get|1|326030|0|0|0|2f6173736574732f64726d696c647265645f5f6d6f76696c2e6a7067|]
+Dec  9 17:34:10 10.71.57.0 u117353325 open "/assets/parallaxtips.png" flags READ mode 0666
+Dec  9 17:34:10 10.71.57.0 u117353325 open "/assets/AI-POLYGON.svg" flags READ mode 0666
+Dec  9 17:34:10 10.71.57.0 u117353325 close "/assets/AI-POLYGON.svg" bytes read 4504 written 0
+Dec  9 17:34:10 10.71.57.0 u117353325 [10.71.57.0|get|0|4504|0|0|0|2f6173736574732f41492d504f4c59474f4e2e737667|]
+Dec  9 17:34:10 10.71.57.0 u117353325 close "/assets/parallaxtips.png" bytes read 69931 written 0
+Dec  9 17:34:10 10.71.57.0 u117353325 [10.71.57.0|get|0|69931|0|0|0|2f6173736574732f706172616c6c6178746970732e706e67|]
+Dec  9 17:34:10 10.71.57.0 u117353325 open "/assets/FIGMA-POLYGON.svg" flags READ mode 0666
+Dec  9 17:34:10 10.71.57.0 u117353325 open "/assets/tipthre.png" flags READ mode 0666
+Dec  9 17:34:10 10.71.57.0 u117353325 close "/assets/FIGMA-POLYGON.svg" bytes read 843 written 0
+Dec  9 17:34:10 10.71.57.0 u117353325 [10.71.57.0|get|0|843|0|0|0|2f6173736574732f4649474d412d504f4c59474f4e2e737667|]
+Dec  9 17:34:10 10.71.57.0 u117353325 close "/assets/tipthre.png" bytes read 157848 written 0
+Dec  9 17:34:10 10.71.57.0 u117353325 [10.71.57.0|get|0|157848|0|0|0|2f6173736574732f746970746872652e706e67|]
+Dec  9 17:34:11 10.71.57.0 u117353325 open "/assets/GIT-HUB__POLYGON.svg" flags READ mode 0666
+Dec  9 17:34:11 10.71.57.0 u117353325 open "/assets/EMAIL-POLYGON.svg" flags READ mode 0666
+Dec  9 17:34:11 10.71.57.0 u117353325 close "/assets/GIT-HUB__POLYGON.svg" bytes read 1138 written 0
+Dec  9 17:34:11 10.71.57.0 u117353325 [10.71.57.0|get|0|1138|0|0|0|2f6173736574732f4749542d4855425f5f504f4c59474f4e2e737667|]
+Dec  9 17:34:11 10.71.57.0 u117353325 close "/assets/EMAIL-POLYGON.svg" bytes read 1115 written 0
+Dec  9 17:34:11 10.71.57.0 u117353325 [10.71.57.0|get|0|1115|0|0|0|2f6173736574732f454d41494c2d504f4c59474f4e2e737667|]
+Dec  9 17:34:11 10.71.57.0 u117353325 open "/assets/IN-POLYGON.svg" flags READ mode 0666
+Dec  9 17:34:11 10.71.57.0 u117353325 open "/assets/fronted-face.webp" flags READ mode 0666
+Dec  9 17:34:11 10.71.57.0 u117353325 close "/assets/IN-POLYGON.svg" bytes read 719 written 0
+Dec  9 17:34:11 10.71.57.0 u117353325 [10.71.57.0|get|0|719|0|0|0|2f6173736574732f494e2d504f4c59474f4e2e737667|]
+Dec  9 17:34:11 10.71.57.0 u117353325 close "/assets/fronted-face.webp" bytes read 104608 written 0
+Dec  9 17:34:11 10.71.57.0 u117353325 [10.71.57.0|get|0|104608|0|0|0|2f6173736574732f66726f6e7465642d666163652e77656270|]
+Dec  9 17:34:11 10.71.57.0 u117353325 open "/assets/profile.jpg" flags READ mode 0666
+Dec  9 17:34:11 10.71.57.0 u117353325 open "/assets/fronted-web-aboutpsd.webp" flags READ mode 0666
+Dec  9 17:34:11 10.71.57.0 u117353325 close "/assets/profile.jpg" bytes read 186310 written 0
+Dec  9 17:34:11 10.71.57.0 u117353325 [10.71.57.0|get|0|186310|0|0|0|2f6173736574732f70726f66696c652e6a7067|]
+Dec  9 17:34:12 10.71.57.0 u117353325 close "/assets/fronted-web-aboutpsd.webp" bytes read 54592 written 0
+Dec  9 17:34:12 10.71.57.0 u117353325 [10.71.57.0|get|1|54592|0|0|0|2f6173736574732f66726f6e7465642d7765622d61626f75747073642e77656270|]
+Dec  9 17:34:12 10.71.57.0 u117353325 open "/assets/dentist__img.png" flags READ mode 0666
+Dec  9 17:34:12 10.71.57.0 u117353325 open "/assets/dr.jpg" flags READ mode 0666
+Dec  9 17:34:12 10.71.57.0 u117353325 close "/assets/dr.jpg" bytes read 37751 written 0
+Dec  9 17:34:12 10.71.57.0 u117353325 [10.71.57.0|get|0|37751|0|0|0|2f6173736574732f64722e6a7067|]
+Dec  9 17:34:12 10.71.57.0 u117353325 close "/assets/dentist__img.png" bytes read 2487719 written 0
+Dec  9 17:34:12 10.71.57.0 u117353325 [10.71.57.0|get|0|2487719|0|0|0|2f6173736574732f64656e746973745f5f696d672e706e67|]
+Dec  9 17:34:12 10.71.57.0 u117353325 open "/assets/movil__photo.jpg" flags READ mode 0666
+Dec  9 17:34:13 10.71.57.0 u117353325 open "/assets/HTML-POLYGON.svg" flags READ mode 0666
+Dec  9 17:34:13 10.71.57.0 u117353325 close "/assets/movil__photo.jpg" bytes read 540843 written 0
+Dec  9 17:34:13 10.71.57.0 u117353325 [10.71.57.0|get|1|540843|0|0|0|2f6173736574732f6d6f76696c5f5f70686f746f2e6a7067|]
+Dec  9 17:34:13 10.71.57.0 u117353325 close "/assets/HTML-POLYGON.svg" bytes read 1654 written 0
+Dec  9 17:34:13 10.71.57.0 u117353325 [10.71.57.0|get|0|1654|0|0|0|2f6173736574732f48544d4c2d504f4c59474f4e2e737667|]
+Dec  9 17:34:13 10.71.57.0 u117353325 open "/assets/skills.svg" flags READ mode 0666
+Dec  9 17:34:13 10.71.57.0 u117353325 open "/assets/logo.png" flags READ mode 0666
+Dec  9 17:34:13 10.71.57.0 u117353325 close "/assets/skills.svg" bytes read 5908 written 0
+Dec  9 17:34:13 10.71.57.0 u117353325 [10.71.57.0|get|0|5908|0|0|0|2f6173736574732f736b696c6c732e737667|]
+Dec  9 17:34:13 10.71.57.0 u117353325 close "/assets/logo.png" bytes read 105215 written 0
+Dec  9 17:34:13 10.71.57.0 u117353325 [10.71.57.0|get|0|105215|0|0|0|2f6173736574732f6c6f676f2e706e67|]
+Dec  9 17:34:13 10.71.57.0 u117353325 open "/assets/logov2.png" flags READ mode 0666
+Dec  9 17:34:13 10.71.57.0 u117353325 open "/assets/tipfour.png" flags READ mode 0666
+Dec  9 17:34:13 10.71.57.0 u117353325 close "/assets/logov2.png" bytes read 77879 written 0
+Dec  9 17:34:13 10.71.57.0 u117353325 [10.71.57.0|get|0|77879|0|0|0|2f6173736574732f6c6f676f76322e706e67|]
+Dec  9 17:34:14 10.71.57.0 u117353325 close "/assets/tipfour.png" bytes read 761012 written 0
+Dec  9 17:34:14 10.71.57.0 u117353325 [10.71.57.0|get|1|761012|0|0|0|2f6173736574732f746970666f75722e706e67|]
+Dec  9 17:34:14 10.71.57.0 u117353325 open "/assets/MOCKUP.webp" flags READ mode 0666
+Dec  9 17:34:14 10.71.57.0 u117353325 open "/assets/10.JPG" flags READ mode 0666
+Dec  9 17:34:14 10.71.57.0 u117353325 close "/assets/MOCKUP.webp" bytes read 389466 written 0
+Dec  9 17:34:14 10.71.57.0 u117353325 [10.71.57.0|get|0|389466|0|0|0|2f6173736574732f4d4f434b55502e77656270|]
+Dec  9 17:34:14 10.71.57.0 u117353325 open "/assets/tipuno.png" flags READ mode 0666
+Dec  9 17:34:15 10.71.57.0 u117353325 close "/assets/tipuno.png" bytes read 320332 written 0
+Dec  9 17:34:15 10.71.57.0 u117353325 [10.71.57.0|get|1|320332|0|0|0|2f6173736574732f746970756e6f2e706e67|]
+Dec  9 17:34:15 10.71.57.0 u117353325 open "/assets/bgPortfolio.webp" flags READ mode 0666
+Dec  9 17:34:16 10.71.57.0 u117353325 close "/assets/10.JPG" bytes read 8212449 written 0
+Dec  9 17:34:16 10.71.57.0 u117353325 [10.71.57.0|get|2|8212449|0|0|0|2f6173736574732f31302e4a5047|]
+Dec  9 17:34:16 10.71.57.0 u117353325 close "/assets/bgPortfolio.webp" bytes read 57606 written 0
+Dec  9 17:34:16 10.71.57.0 u117353325 [10.71.57.0|get|1|57606|0|0|0|2f6173736574732f6267506f7274666f6c696f2e77656270|]
+Dec  9 17:34:16 10.71.57.0 u117353325 open "/assets/me-v2.webp" flags READ mode 0666
+Dec  9 17:34:16 10.71.57.0 u117353325 open "/assets/JQUERY-POLYGON.svg" flags READ mode 0666
+Dec  9 17:34:16 10.71.57.0 u117353325 close "/assets/me-v2.webp" bytes read 70534 written 0
+Dec  9 17:34:16 10.71.57.0 u117353325 [10.71.57.0|get|0|70534|0|0|0|2f6173736574732f6d652d76322e77656270|]
+Dec  9 17:34:16 10.71.57.0 u117353325 close "/assets/JQUERY-POLYGON.svg" bytes read 8162 written 0
+Dec  9 17:34:16 10.71.57.0 u117353325 [10.71.57.0|get|0|8162|0|0|0|2f6173736574732f4a51554552592d504f4c59474f4e2e737667|]
+Dec  9 17:34:16 10.71.57.0 u117353325 open "/assets/shivaTopLogo.png" flags READ mode 0666
+Dec  9 17:34:16 10.71.57.0 u117353325 open "/assets/diamon__cursorhand.webp" flags READ mode 0666
+Dec  9 17:34:16 10.71.57.0 u117353325 close "/assets/shivaTopLogo.png" bytes read 24071 written 0
+Dec  9 17:34:16 10.71.57.0 u117353325 [10.71.57.0|get|0|24071|0|0|0|2f6173736574732f7368697661546f704c6f676f2e706e67|]
+Dec  9 17:34:16 10.71.57.0 u117353325 close "/assets/diamon__cursorhand.webp" bytes read 13916 written 0
+Dec  9 17:34:16 10.71.57.0 u117353325 [10.71.57.0|get|0|13916|0|0|0|2f6173736574732f6469616d6f6e5f5f637572736f7268616e642e77656270|]
+Dec  9 17:34:17 10.71.57.0 u117353325 open "/assets/tip.webp" flags READ mode 0666
+Dec  9 17:34:17 10.71.57.0 u117353325 open "/assets/SASS-POLYGON.svg" flags READ mode 0666
+Dec  9 17:34:17 10.71.57.0 u117353325 close "/assets/tip.webp" bytes read 15584 written 0
+Dec  9 17:34:17 10.71.57.0 u117353325 [10.71.57.0|get|0|15584|0|0|0|2f6173736574732f7469702e77656270|]
+Dec  9 17:34:17 10.71.57.0 u117353325 close "/assets/SASS-POLYGON.svg" bytes read 6329 written 0
+Dec  9 17:34:17 10.71.57.0 u117353325 [10.71.57.0|get|0|6329|0|0|0|2f6173736574732f534153532d504f4c59474f4e2e737667|]
+Dec  9 17:34:17 10.71.57.0 u117353325 open "/assets/latest-work.webp" flags READ mode 0666
+Dec  9 17:34:17 10.71.57.0 u117353325 open "/assets/tipfive.png" flags READ mode 0666
+Dec  9 17:34:17 10.71.57.0 u117353325 close "/assets/latest-work.webp" bytes read 108536 written 0
+Dec  9 17:34:17 10.71.57.0 u117353325 [10.71.57.0|get|0|108536|0|0|0|2f6173736574732f6c61746573742d776f726b2e77656270|]
+Dec  9 17:34:17 10.71.57.0 u117353325 open "/assets/drmildred__mockup.jpg" flags READ mode 0666
+Dec  9 17:34:17 10.71.57.0 u117353325 close "/assets/tipfive.png" bytes read 179039 written 0
+Dec  9 17:34:17 10.71.57.0 u117353325 [10.71.57.0|get|0|179039|0|0|0|2f6173736574732f746970666976652e706e67|]
+Dec  9 17:34:17 10.71.57.0 u117353325 open "/assets/PS-POLYGON.svg" flags READ mode 0666
+Dec  9 17:34:17 10.71.57.0 u117353325 close "/assets/drmildred__mockup.jpg" bytes read 244697 written 0
+Dec  9 17:34:17 10.71.57.0 u117353325 [10.71.57.0|get|0|244697|0|0|0|2f6173736574732f64726d696c647265645f5f6d6f636b75702e6a7067|]
+Dec  9 17:34:18 10.71.57.0 u117353325 open "/assets/img-2.png" flags READ mode 0666
+Dec  9 17:34:18 10.71.57.0 u117353325 close "/assets/PS-POLYGON.svg" bytes read 3049 written 0
+Dec  9 17:34:18 10.71.57.0 u117353325 [10.71.57.0|get|1|3049|0|0|0|2f6173736574732f50532d504f4c59474f4e2e737667|]
+Dec  9 17:34:18 10.71.57.0 u117353325 open "/assets/MOVIL.webp" flags READ mode 0666
+Dec  9 17:34:18 10.71.57.0 u117353325 close "/assets/img-2.png" bytes read 537918 written 0
+Dec  9 17:34:18 10.71.57.0 u117353325 [10.71.57.0|get|0|537918|0|0|0|2f6173736574732f696d672d322e706e67|]
+Dec  9 17:34:18 10.71.57.0 u117353325 open "/assets/img-3.png" flags READ mode 0666
+Dec  9 17:34:18 10.71.57.0 u117353325 close "/assets/MOVIL.webp" bytes read 296316 written 0
+Dec  9 17:34:18 10.71.57.0 u117353325 [10.71.57.0|get|0|296316|0|0|0|2f6173736574732f4d4f56494c2e77656270|]
+Dec  9 17:34:19 10.71.57.0 u117353325 open "/assets/9.jpg" flags READ mode 0666
+Dec  9 17:34:19 10.71.57.0 u117353325 close "/assets/img-3.png" bytes read 1059647 written 0
+Dec  9 17:34:19 10.71.57.0 u117353325 [10.71.57.0|get|1|1059647|0|0|0|2f6173736574732f696d672d332e706e67|]
+Dec  9 17:34:19 10.71.57.0 u117353325 close "/assets/9.jpg" bytes read 494593 written 0
+Dec  9 17:34:19 10.71.57.0 u117353325 [10.71.57.0|get|0|494593|0|0|0|2f6173736574732f392e6a7067|]
+Dec  9 17:34:19 10.71.57.0 u117353325 open "/assets/CSS-POLYGON.svg" flags READ mode 0666
+Dec  9 17:34:19 10.71.57.0 u117353325 open "/assets/tiptwo.png" flags READ mode 0666
+Dec  9 17:34:19 10.71.57.0 u117353325 close "/assets/CSS-POLYGON.svg" bytes read 1420 written 0
+Dec  9 17:34:19 10.71.57.0 u117353325 [10.71.57.0|get|0|1420|0|0|0|2f6173736574732f4353532d504f4c59474f4e2e737667|]
+Dec  9 17:34:19 10.71.57.0 u117353325 open "/assets/JAVASCRIPT-POLYGON.svg" flags READ mode 0666
+Dec  9 17:34:19 10.71.57.0 u117353325 close "/assets/tiptwo.png" bytes read 901165 written 0
+Dec  9 17:34:19 10.71.57.0 u117353325 [10.71.57.0|get|0|901165|0|0|0|2f6173736574732f74697074776f2e706e67|]
+Dec  9 17:34:20 10.71.57.0 u117353325 close "/assets/JAVASCRIPT-POLYGON.svg" bytes read 1865 written 0
+Dec  9 17:34:20 10.71.57.0 u117353325 [10.71.57.0|get|1|1865|0|0|0|2f6173736574732f4a4156415343524950542d504f4c59474f4e2e737667|]
+Dec  9 17:34:20 10.71.57.0 u117353325 open "/assets/border__cookie.png" flags READ mode 0666
+Dec  9 17:34:20 10.71.57.0 u117353325 open "/assets/bg-rrss.png" flags READ mode 0666
+Dec  9 17:34:20 10.71.57.0 u117353325 close "/assets/border__cookie.png" bytes read 1873 written 0
+Dec  9 17:34:20 10.71.57.0 u117353325 [10.71.57.0|get|0|1873|0|0|0|2f6173736574732f626f726465725f5f636f6f6b69652e706e67|]
+Dec  9 17:34:20 10.71.57.0 u117353325 close "/assets/bg-rrss.png" bytes read 42603 written 0
+Dec  9 17:34:20 10.71.57.0 u117353325 [10.71.57.0|get|0|42603|0|0|0|2f6173736574732f62672d727273732e706e67|]
+Dec  9 17:34:20 10.71.57.0 u117353325 open "/assets/backgroundborder__cookie.png" flags READ mode 0666
+Dec  9 17:34:20 10.71.57.0 u117353325 open "/assets/TIP-MOVIL.webp" flags READ mode 0666
+Dec  9 17:34:20 10.71.57.0 u117353325 close "/assets/backgroundborder__cookie.png" bytes read 1373 written 0
+Dec  9 17:34:20 10.71.57.0 u117353325 [10.71.57.0|get|0|1373|0|0|0|2f6173736574732f6261636b67726f756e64626f726465725f5f636f6f6b69652e706e67|]
+Dec  9 17:34:20 10.71.57.0 u117353325 open "/assets/img-portfolio1.png" flags READ mode 0666
+Dec  9 17:34:20 10.71.57.0 u117353325 close "/assets/TIP-MOVIL.webp" bytes read 617618 written 0
+Dec  9 17:34:20 10.71.57.0 u117353325 [10.71.57.0|get|0|617618|0|0|0|2f6173736574732f5449502d4d4f56494c2e77656270|]
+Dec  9 17:34:21 10.71.57.0 u117353325 close "/assets/img-portfolio1.png" bytes read 676674 written 0
+Dec  9 17:34:21 10.71.57.0 u117353325 [10.71.57.0|get|1|676674|0|0|0|2f6173736574732f696d672d706f7274666f6c696f312e706e67|]
+Dec  9 17:34:21 10.71.57.0 u117353325 open "/assets/img-portfolio3.png" flags READ mode 0666
+Dec  9 17:34:21 10.71.57.0 u117353325 open "/assets/MI_LOGO.svg" flags READ mode 0666
+Dec  9 17:34:21 10.71.57.0 u117353325 close "/assets/img-portfolio3.png" bytes read 37970 written 0
+Dec  9 17:34:21 10.71.57.0 u117353325 [10.71.57.0|get|0|37970|0|0|0|2f6173736574732f696d672d706f7274666f6c696f332e706e67|]
+Dec  9 17:34:21 10.71.57.0 u117353325 close "/assets/MI_LOGO.svg" bytes read 4708 written 0
+Dec  9 17:34:21 10.71.57.0 u117353325 [10.71.57.0|get|0|4708|0|0|0|2f6173736574732f4d495f4c4f474f2e737667|]
+Dec  9 17:34:21 10.71.57.0 u117353325 open "/assets/me.png" flags READ mode 0666
+Dec  9 17:34:21 10.71.57.0 u117353325 open "/assets/img-portfolio2.png" flags READ mode 0666
+Dec  9 17:34:21 10.71.57.0 u117353325 close "/assets/me.png" bytes read 475384 written 0
+Dec  9 17:34:21 10.71.57.0 u117353325 [10.71.57.0|get|0|475384|0|0|0|2f6173736574732f6d652e706e67|]
+Dec  9 17:34:21 10.71.57.0 u117353325 close "/assets/img-portfolio2.png" bytes read 412041 written 0
+Dec  9 17:34:21 10.71.57.0 u117353325 [10.71.57.0|get|0|412041|0|0|0|2f6173736574732f696d672d706f7274666f6c696f322e706e67|]
+Dec  9 17:34:22 10.71.57.0 u117353325 open "/css/style.css" flags READ mode 0666
+Dec  9 17:34:22 10.71.57.0 u117353325 open "/js/app.js" flags READ mode 0666
+Dec  9 17:34:22 10.71.57.0 u117353325 close "/css/style.css" bytes read 75858 written 0
+Dec  9 17:34:22 10.71.57.0 u117353325 [10.71.57.0|get|0|75858|0|0|0|2f6373732f7374796c652e637373|]
+Dec  9 17:34:22 10.71.57.0 u117353325 close "/js/app.js" bytes read 5782 written 0
+Dec  9 17:34:22 10.71.57.0 u117353325 [10.71.57.0|get|0|5782|0|0|0|2f6a732f6170702e6a73|]
+Dec  9 17:34:22 10.71.57.0 u117353325 open "/js/jquery-3.6.2.slim.min.js" flags READ mode 0666
+Dec  9 17:34:22 10.71.57.0 u117353325 open "/js/about.js" flags READ mode 0666
+Dec  9 17:34:22 10.71.57.0 u117353325 close "/js/jquery-3.6.2.slim.min.js" bytes read 72812 written 0
+Dec  9 17:34:22 10.71.57.0 u117353325 [10.71.57.0|get|0|72812|0|0|0|2f6a732f6a71756572792d332e362e322e736c696d2e6d696e2e6a73|]
+Dec  9 17:34:22 10.71.57.0 u117353325 close "/js/about.js" bytes read 2283 written 0
+Dec  9 17:34:22 10.71.57.0 u117353325 [10.71.57.0|get|0|2283|0|0|0|2f6a732f61626f75742e6a73|]
+Dec  9 17:34:23 10.71.57.0 u117353325 open "/js/tip.js" flags READ mode 0666
+Dec  9 17:34:23 10.71.57.0 u117353325 close "/js/tip.js" bytes read 2672 written 0
+Dec  9 17:34:23 10.71.57.0 u117353325 [10.71.57.0|get|0|2672|0|0|0|2f6a732f7469702e6a73|]
+Dec  9 17:34:23 10.71.57.0 u117353325 open "/logs/sftp.log" flags READ mode 0666

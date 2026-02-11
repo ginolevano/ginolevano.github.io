@@ -1,0 +1,51 @@
+
+
+@mixin center {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin end {
+    display: flex;
+    justify-content: flex-end;
+}
+@mixin grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16em , 1fr) );
+    column-gap: 4em;
+    row-gap:4em;
+
+
+}
+@mixin column {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin  column2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+}
+
+@mixin between {
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin  start  {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
