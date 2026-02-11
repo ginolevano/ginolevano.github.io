@@ -30,8 +30,6 @@ Este portfolio refleja mi evolución técnica y proyectos académicos y personal
 - Git & GitHub
 
 ---
-
-## 📁 Estructura del Proyecto
   
 ## 📁 Estructura del Proyecto
 
